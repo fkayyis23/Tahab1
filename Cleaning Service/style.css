@@ -1,0 +1,262 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+.hero{
+    width: 100;
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(bg1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 45px 8x 0 8%;
+    box-sizing: border-box;
+    background: rgba(34, 34, 34, 0.6);
+    border-bottom: 1px solid #fff;
+
+}
+.hero h2{
+    padding-left: 5%;
+}
+.logo{
+    color:white;
+    font-size: 30px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+nav ul li a{
+    text-decoration: none;
+    color:white;
+    font-weight: bold;
+}
+nav ul li a:hover{
+    color: teal;
+    transition: .4s;
+}
+.content{
+    position: absolute;
+    top: 35%;
+    left: 25%;
+    transform: translate(-50%-50%);
+}
+.content h1{
+    text-align: center;
+    font-size: 65px;
+    font-family: sans-serif;
+    color:white;
+}
+.about{
+    margin: 100px auto;
+    width: 70%;
+}
+.about img{
+  max-width: 450px;
+  float: left;
+  border: 3px solid #777;
+  border-radius: 10px;
+  margin-right: 10px;
+  margin-top: 100px;
+}
+.about-text{
+    color: black;
+    
+}
+.about h2{
+    color:black;
+    font-size: 43px;
+    margin-left: 500px;
+    
+    
+    
+}
+.about p{
+    color: #444;
+    font-size: 18px;
+    margin-left: 500px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.heading{
+    color: black;
+    font-size: 45px;
+    text-align: center;
+    margin-top: 20%;
+}
+.menu-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(220px,auto));
+    grid-gap: 1.5rem;
+    align-items: center;
+    background-color:black;
+    height: 400px;
+}
+.box{
+    position: relative;
+    margin-top: 4rem;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    padding: 30px;
+    border-radius: 0.5rem;
+}
+.box img{
+    width: 220px;
+    height: 220px;
+}
+.box-img img{
+    width: 100%;
+    height: 100%;
+}
+.box h3{
+    color: black;
+    font-size: 30px;
+}
+img{
+    max-width: 100%;
+    height: auto;
+
+}
+.wrapper{
+    max-width: none;
+    width: 100%;
+    padding: 40px 15px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    text-align: center;
+    background-color: darkcyan;
+}
+.title{
+    margin: 30px 0;
+    overflow: hidden;
+}
+.title h1{
+    font-size: 45px;
+    color: black;
+}
+.title img{
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    object-fit: cover;
+}
+.gallery{
+    margin: 60px 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 25px;
+    
+}
+.gallery img{
+    width: 1000px;
+    height: 280px;
+    object-fit: cover;
+    border: 1px solid black;
+    box-shadow: 1px 2px 3px aqua;
+    border-radius: 10px;
+    box-sizing: border-box;
+
+}
+.testimoni{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+.testimoni-heading{
+    letter-spacing: 1px;
+    margin: 30px 0px;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.testimoni-heading h1{
+    font-size: 2.2rem;
+    font-weight: 500;
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+}
+.testimoni-heading span{
+    font-size: 1.7rem;
+    color: black;
+    margin-bottom: 1px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.testomoni-box-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.testimoni-box{
+    width: 500px;
+    box-shadow: 2px 2px 330px black;
+    background-color: white;
+    padding: 20px;
+    margin: 15px;
+    cursor: pointer;
+}
+.profile-img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 10px;
+}
+.profile-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.profile{
+    display: flex;
+    align-items: center;
+}
+.name-user{
+    display: flex;
+    flex-direction: column;
+}
+.name-user strong{
+    color: black;
+    font-size: 1.1rem;
+    letter-spacing: 0.1px;
+    margin-right: 10%;
+    width: 10%;
+
+    
+}
+.name-user span{
+    color: grey;
+    font-size: 0.8rem;
+}
+.box-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.client-comment p{
+    font-size: 1rem;
+    height: 100%;
+    text-align: right;
+}
